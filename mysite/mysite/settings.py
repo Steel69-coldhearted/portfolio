@@ -122,7 +122,7 @@ import os
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'pages', 'static'),
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 # Enable WhiteNoise compression and caching for better performance
